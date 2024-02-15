@@ -9,7 +9,7 @@ findspark.init()
 # Create Spark Session
 spark = SparkSession.builder.appName("firstApp").getOrCreate()
 
-data = spark.read.csv("linkdin_Job_data.csv", header=True)
+data = spark.read.csv("linkdin_Job_data.csv.2", header=True)
 
 data.show(1)  # shows first row
 
