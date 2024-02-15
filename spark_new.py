@@ -6,7 +6,7 @@ from pyspark import SparkContext
 spark = SparkSession.builder.appName("firstApplication").getOrCreate()
 df = spark.read.format("csv") \
     .option("header", "true") \
-    .option("path", "hdfs:///user/maria_dev/spark/linkdin_Job_data.csv") \
+    .option("path", "hdfs:///user/maria_dev/spark/linkdin_Job_data.csv.2") \
     .load()
 print("Dataset contains:", df.count(), "rows")
 df.printSchema()
