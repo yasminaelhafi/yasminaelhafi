@@ -4,8 +4,6 @@ from pyspark.sql import functions as F
 from pyspark.sql.types import IntegerType
 from pyspark import SparkContext
 
-import findspark
-findspark.init()
 # Create Spark Session
 spark = SparkSession.builder.appName("firstApp").getOrCreate()
 
