@@ -1,0 +1,6 @@
+Order ID,Product,Quantity Ordered,Price Each,Order Date,Purchase Address
+1,Apple,2,1.50,2019-01-01,"123 Apple St, New York"
+2,Banana,3,0.75,2019-01-02,"456 Banana Ave, Boston"
+3,Apple,1,1.50,2019-01-03,"123 Apple St, New York"
+4,Orange,5,1.00,2019-01-04,"789 Orange Rd, Dallas"
+5,Banana,2,0.75,2019-01-05,"456 Banana Ave, Boston"
